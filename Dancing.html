@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @keyframes dada {
+      0% { transform: translateY(0) scaleX(1); }
+      25% { transform: translateY(-20px) rotate(-10deg) scaleX(-1); }
+      50% { transform: translateY(0) scaleX(1); }
+      75% { transform: translateY(-20px) rotate(10deg) scaleX(-1); }
+      100% { transform: translateY(0) scaleX(1); }
+    }
+
+    .dada {
+      width: 100px;
+      height: 100px;
+      background: url('https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg') no-repeat center/cover;
+      animation: dance 1s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="dada"></div>
+</body>
+</html>
